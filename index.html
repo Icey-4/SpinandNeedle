@@ -2,13 +2,92 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+<body>
+  <section id="one">
     <div class="hero">
       <div class="hero-text">
         <h1>hi</h1>
         <p>hello</p>
       </div>
     </div>
-  </body>
-</html>
+    <div class="BGtext">
+      <p>blah blah blah</p>
+    </div>
+  </section>
+
+  <section id="two" style="display: none">
+    <div id="BtnCon">
+      <button class="btn" onclick="ShowAll()">Show all</button>
+      <button class="btn" onclick="ShowOne(0)">60s</button>
+      <button class="btn" onclick="ShowOne(1)">70s</button>
+      <button class="btn" onclick="ShowOne(2)">80s</button>
+      <button class="btn" onclick="ShowOne(3)">90s</button>
+    </div>
+    <p>
+      <br />
+    </p>
+    <div class="column">
+      <div class="six">
+        <div class="card">
+          <img
+            src="https://media.istockphoto.com/id/980711798/vector/retro-vinyl-record-concept.jpg?s=612x612&w=0&k=20&c=mnZbUT812fbxFd0UU9JSP_8SKcd1bAUqS73XOOiEU1o="
+            alt="album"
+          />
+          <h4>Name of album<br />Band - 1960</h4>
+          <p>extra info</p>
+        </div>
+      </div>
+      <div class="seven">
+        <div class="card">
+          <img
+            src="https://media.istockphoto.com/id/980711798/vector/retro-vinyl-record-concept.jpg?s=612x612&w=0&k=20&c=mnZbUT812fbxFd0UU9JSP_8SKcd1bAUqS73XOOiEU1o="
+            alt="album"
+          />
+          <h4>Name of album<br />Band - 1970</h4>
+          <p>extra info</p>
+        </div>
+      </div>
+      <div class="eight">
+        <div class="card">
+          <img
+            src="https://media.istockphoto.com/id/980711798/vector/retro-vinyl-record-concept.jpg?s=612x612&w=0&k=20&c=mnZbUT812fbxFd0UU9JSP_8SKcd1bAUqS73XOOiEU1o="
+            alt="album"
+          />
+          <h4>Name of album<br />Band - 1980</h4>
+          <p>extra info</p>
+        </div>
+      </div>
+      <div class="nine">
+        <div class="card">
+          <img
+            src="https://media.istockphoto.com/id/980711798/vector/retro-vinyl-record-concept.jpg?s=612x612&w=0&k=20&c=mnZbUT812fbxFd0UU9JSP_8SKcd1bAUqS73XOOiEU1o="
+            alt="album"
+          />
+          <h4>Name of album<br />Band - 1990</h4>
+          <p>extra info</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="three" style="display: none">
+    <div class="BGtext">
+      <p>Link to contact you</p>
+      <div class="column">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
+        />
+      </div>
+    </div>
+  </section>
+  <p>
+    <br />
+  </p>
+  <div class="navbar">
+    <a onclick="txtSwap(1)">Home</a>
+    <a onclick="txtSwap(2)">Records</a>
+    <a onclick="txtSwap(3)">Contact</a>
+  </div>
+</body>
